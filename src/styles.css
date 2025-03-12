@@ -1,8 +1,39 @@
 body{
-    background-color: rgb(216, 168, 58);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f4e1c1;
+    color: #4a3f35; /* Σκούρο καφέ για το κείμενο */
+    /* display: flex;
+    align-items: center; */
 }
 
-a{
-    background-color: rgb(223, 188, 105);
-    color: black;
+/* header{
+    width: 30%;
+    margin: 10px;   
+} */
+
+
+nav a {
+    text-decoration: none;
+    color: #e63946;
+    padding: 10px 15px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* #content{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+} */
+
+
+/* .home img{
+    width: 100%;
+    height: auto;
+    margin: auto;
+} */
+
+.home{
+    text-align: center;
 }
