@@ -1,23 +1,36 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #f4e1c1;
-    color: #4a3f35; /* Σκούρο καφέ για το κείμενο */
+    color: #4a3f35; 
 }
 
-
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 0;
+}
 
 nav a {
     text-decoration: none;
     color: #e63946;
     padding: 10px 15px;
-    background-color: #f8f8f8;
-    border-radius: 5px;
+    background-color: #fff7ee;
+    border-radius: 8px;
+    font-weight: bold;
     transition: 0.3s;
-}
+  }
+  
+  nav a:hover {
+    background-color: #f4e1c1;
+  }
 
-#content{
-    transition: opacity 0.3s ease-in-out;
-}
+#content {
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
 
 .contact img{
     width: 600px;
@@ -26,11 +39,6 @@ nav a {
     gap: 20px;
 }
 
-/* .home img{
-    width: 100%;
-    height: auto;
-    margin: auto;
-} */
 
 .home, .contact{
     text-align: center;
@@ -85,3 +93,29 @@ nav a {
     color: #d35400; 
 }
 
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    color: #4a3f35;
+    background-color: #f8e9d2;
+    margin-top: 30px;
+  }
+  
+  footer a {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: #e63946;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer i {
+    font-size: 1rem;
+  }
+  
