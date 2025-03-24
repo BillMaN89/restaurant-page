@@ -14,6 +14,10 @@ export default function contactInfo(){
     image.src = FrontImage;
     image.alt = "Φωτογραφία Μαγαζιού";
 
+    const header = document.createElement("h3");
+    header.textContent = "Ο χώρος μας";
+
+    contactDiv.appendChild(header);
     contactDiv.appendChild(image);
     contactDiv.appendChild(location);
     contactDiv.appendChild(phoneNumber);
